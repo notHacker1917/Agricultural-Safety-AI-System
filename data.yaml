@@ -1,0 +1,7 @@
+path: C:/Users/hs735.COLTSMOKE/OneDrive/Documents/Hackathon/HackHPI2026_release/data
+train: images
+val: images
+
+# Classes
+nc: 1
+names: ['person']
