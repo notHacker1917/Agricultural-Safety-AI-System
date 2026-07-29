@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Safety AI Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .panel {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            flex: 1;
+            min-width: 300px;
+        }
+        .video-panel {
+            flex: 2;
+            min-width: 600px;
+        }
+        .alert-panel {
+            background-color: #e8f5e8;
+        }
+        .alert-panel.warning {
+            background-color: #fff3cd;
+        }
+        .alert-panel.critical {
+            background-color: #f8d7da;
+        }
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .start { background-color: #28a745; color: white; }
+        .stop { background-color: #dc3545; color: white; }
+        .pause { background-color: #ffc107; color: black; }
+        .reset { background-color: #6c757d; color: white; }
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+        .status {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .safe { color: #28a745; }
+        .warning { color: #ffc107; }
+        .critical { color: #dc3545; }
+    </style>
+</head>
+<body>
+    <h1>Agricultural Safety AI Dashboard</h1>
+
+    <div class="controls">
+        <button class="start" onclick="control('start')">Start</button>
+        <button class="stop" onclick="control('stop')">Stop</button>
+        <button class="pause" onclick="control('pause')">Pause/Resume</button>
+        <button class="reset" onclick="control('reset')">Reset Tracking</button>
+    </div>
+
+    <div class="container">
+        <div class="panel video-panel">
+            <h2>Video Feed</h2>
+            <img id="video-feed" src="/video_feed" width="100%" alt="Video Feed">
+        </div>
+
+        <div class="panel alert-panel" id="alert-panel">
+            <h2>Safety Alerts</h2>
+            <div class="status" id="status">SAFE</div>
+            <div class="metric">
+                <span>Time to Collision:</span>
+                <span id="ttc">N/A</span>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h2>Metrics</h2>
+            <div class="metric">
+                <span>Precision:</span>
+                <span id="precision">0.00</span>
+            </div>
+            <div class="metric">
+                <span>Recall:</span>
+                <span id="recall">0.00</span>
+            </div>
+            <div class="metric">
+                <span>False Negative Rate:</span>
+                <span id="fn-rate">0.00</span>
+            </div>
+            <div class="metric">
+                <span>Tracked Persons:</span>
+                <span id="tracked">0</span>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h2>Failure Insights</h2>
+            <div class="metric">
+                <span>Latest Failure:</span>
+                <span id="failure">None</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updateMetrics() {
+            fetch('/metrics')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('precision').textContent = data.precision.toFixed(2);
+                    document.getElementById('recall').textContent = data.recall.toFixed(2);
+                    document.getElementById('fn-rate').textContent = data.fn_rate.toFixed(2);
+                    document.getElementById('tracked').textContent = data.tracked_persons;
+                });
+        }
+
+        function updateAlerts() {
+            fetch('/alerts')
+                .then(response => response.json())
+                .then(data => {
+                    const statusEl = document.getElementById('status');
+                    statusEl.textContent = data.status;
+                    statusEl.className = 'status ' + data.status.toLowerCase();
+                    document.getElementById('ttc').textContent = data.time_to_collision ? data.time_to_collision.toFixed(2) + 's' : 'N/A';
+
+                    const alertPanel = document.getElementById('alert-panel');
+                    alertPanel.className = 'panel alert-panel ' + data.status.toLowerCase();
+                });
+        }
+
+        function updateFailures() {
+            fetch('/failures')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('failure').textContent = data.latest_failure;
+                });
+        }
+
+        function control(action) {
+            fetch('/control', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({action: action}),
+            });
+        }
+
+        // Update data every second
+        setInterval(() => {
+            updateMetrics();
+            updateAlerts();
+            updateFailures();
+        }, 1000);
+    </script>
+</body>
+</html>
