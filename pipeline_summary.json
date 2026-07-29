@@ -1,0 +1,558 @@
+{
+  "summary": {
+    "frames_processed": 30,
+    "input_video": "sample_video.mp4",
+    "output_video": "annotated_pipeline_output.mp4",
+    "risk_level_counts": {
+      "CRITICAL": 0,
+      "HIGH_WARNING": 16,
+      "WARNING": 21,
+      "LOW_WARNING": 48,
+      "SAFE": 5
+    },
+    "avg_latency_ms": 1.56,
+    "p95_latency_ms": 2.13
+  },
+  "per_frame": [
+    {
+      "frame": 0,
+      "latency_ms": 2.14,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.357
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.153
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "latency_ms": 1.58,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.337
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.14
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "latency_ms": 1.87,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.314
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.127
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "latency_ms": 1.31,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.293
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.114
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "latency_ms": 1.72,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.27
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.101
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "latency_ms": 1.67,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.247
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.085
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "latency_ms": 1.67,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.227
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.072
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "latency_ms": 1.63,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.204
+        },
+        {
+          "level": "SAFE",
+          "score": 0.0
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "latency_ms": 1.18,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.181
+        },
+        {
+          "level": "SAFE",
+          "score": 0.0
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "latency_ms": 0.99,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.161
+        },
+        {
+          "level": "SAFE",
+          "score": 0.0
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "latency_ms": 1.18,
+      "risks": [
+        {
+          "level": "LOW_WARNING",
+          "score": 0.138
+        },
+        {
+          "level": "SAFE",
+          "score": 0.0
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "latency_ms": 1.34,
+      "risks": [
+        {
+          "level": "WARNING",
+          "score": 0.719
+        },
+        {
+          "level": "WARNING",
+          "score": 0.426
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "latency_ms": 1.37,
+      "risks": [
+        {
+          "level": "WARNING",
+          "score": 0.679
+        },
+        {
+          "level": "WARNING",
+          "score": 0.401
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "latency_ms": 1.22,
+      "risks": [
+        {
+          "level": "WARNING",
+          "score": 0.631
+        },
+        {
+          "level": "WARNING",
+          "score": 0.374
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "latency_ms": 1.77,
+      "risks": [
+        {
+          "level": "WARNING",
+          "score": 0.585
+        },
+        {
+          "level": "WARNING",
+          "score": 0.349
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "latency_ms": 1.87,
+      "risks": [
+        {
+          "level": "WARNING",
+          "score": 0.544
+        },
+        {
+          "level": "WARNING",
+          "score": 0.316
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "latency_ms": 1.76,
+      "risks": [
+        {
+          "level": "WARNING",
+          "score": 0.498
+        },
+        {
+          "level": "WARNING",
+          "score": 0.291
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "latency_ms": 2.04,
+      "risks": [
+        {
+          "level": "WARNING",
+          "score": 0.45
+        },
+        {
+          "level": "WARNING",
+          "score": 0.264
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "latency_ms": 2.12,
+      "risks": [
+        {
+          "level": "WARNING",
+          "score": 0.41
+        },
+        {
+          "level": "WARNING",
+          "score": 0.239
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "latency_ms": 1.13,
+      "risks": [
+        {
+          "level": "WARNING",
+          "score": 0.365
+        },
+        {
+          "level": "WARNING",
+          "score": 0.211
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "latency_ms": 3.09,
+      "risks": [
+        {
+          "level": "WARNING",
+          "score": 0.317
+        },
+        {
+          "level": "WARNING",
+          "score": 0.18
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "latency_ms": 1.17,
+      "risks": [
+        {
+          "level": "HIGH_WARNING",
+          "score": 1.0
+        },
+        {
+          "level": "WARNING",
+          "score": 0.153
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "latency_ms": 2.0,
+      "risks": [
+        {
+          "level": "HIGH_WARNING",
+          "score": 1.0
+        },
+        {
+          "level": "SAFE",
+          "score": 0.0
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "latency_ms": 2.02,
+      "risks": [
+        {
+          "level": "HIGH_WARNING",
+          "score": 1.0
+        },
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.762
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "latency_ms": 1.22,
+      "risks": [
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.995
+        },
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.74
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "latency_ms": 1.17,
+      "risks": [
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.945
+        },
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.705
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "latency_ms": 1.22,
+      "risks": [
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.899
+        },
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.683
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "latency_ms": 1.17,
+      "risks": [
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.857
+        },
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.657
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "latency_ms": 1.1,
+      "risks": [
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.811
+        },
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.635
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "latency_ms": 1.14,
+      "risks": [
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.718
+        },
+        {
+          "level": "HIGH_WARNING",
+          "score": 0.6
+        },
+        {
+          "level": "LOW_WARNING",
+          "score": 0.555
+        }
+      ]
+    }
+  ]
+}
