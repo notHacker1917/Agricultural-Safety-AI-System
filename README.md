@@ -1,5 +1,5 @@
-# 🌾 Agricultural Safety AI System
-
+#  Agricultural Safety AI System
+ 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-green.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-blue.svg)](https://github.com/ultralytics/ultralytics)
@@ -7,7 +7,7 @@
 
 A comprehensive AI-powered system for real-time human detection, trajectory prediction, and safety assessment in agricultural environments. Combines advanced computer vision, motion tracking, and LLM-powered contextual analysis to prevent accidents around agricultural machinery.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Key Features](#key-features)
@@ -31,7 +31,7 @@ A comprehensive AI-powered system for real-time human detection, trajectory pred
 
 The Agricultural Safety AI System addresses critical safety challenges in agricultural operations by leveraging advanced computer vision and artificial intelligence. The system detects humans in farm environments, tracks their movements in real-time, predicts trajectories, and performs multi-modal risk assessment to prevent dangerous interactions with agricultural machinery.
 
-### 🎯 Use Cases
+###  Use Cases
 
 - **Real-time monitoring** around harvesting equipment (combines, harvesters)
 - **Automated safety alerts** for personnel entering danger zones
@@ -40,20 +40,20 @@ The Agricultural Safety AI System addresses critical safety challenges in agricu
 - **Historical incident analysis** through comprehensive logging and audit trails
 - **Emergency protocol** automatic escalation based on risk levels
 
-### ⚡ Key Challenges Solved
+###  Key Challenges Solved
 
-- ✅ Multi-scale detection in cluttered farm environments
-- ✅ Handling occlusion and varying lighting conditions
-- ✅ Persistent object tracking across frame sequences
-- ✅ Accurate trajectory prediction for moving personnel
-- ✅ Context-aware risk scoring using LLM integration
-- ✅ Real-time performance with minimal latency
+- Multi-scale detection in cluttered farm environments
+- Handling occlusion and varying lighting conditions
+- Persistent object tracking across frame sequences
+- Accurate trajectory prediction for moving personnel
+- Context-aware risk scoring using LLM integration
+- Real-time performance with minimal latency
 
 ---
 
 ## Key Features
 
-### 🔍 Detection & Recognition
+###  Detection & Recognition
 
 - **Multi-Scale Human Detection**
   - YOLOv8-based object detection with ensemble methods
@@ -67,7 +67,7 @@ The Agricultural Safety AI System addresses critical safety challenges in agricu
   - Automatic brightness normalization
   - Video stabilization for shaky footage
 
-### 👁️ Tracking & Motion Analysis
+### Tracking & Motion Analysis
 
 - **Persistent Object Tracking**
   - ByteTrack algorithm for consistent ID assignment
@@ -81,7 +81,7 @@ The Agricultural Safety AI System addresses critical safety challenges in agricu
   - Confined area detection and boundary violations
   - Anomaly detection for sudden movement changes
 
-### 🎯 Trajectory Prediction
+###  Trajectory Prediction
 
 - **Advanced Kinematic Forecasting**
   - Multi-step future position prediction (up to 30 frames ahead)
@@ -89,7 +89,7 @@ The Agricultural Safety AI System addresses critical safety challenges in agricu
   - Collision detection with machinery paths
   - Confidence scoring for predictions
 
-### 🤖 AI-Powered Risk Assessment
+###  AI-Powered Risk Assessment
 
 - **Multi-Modal Risk Scoring**
   - LLM-enhanced contextual analysis (OpenAI GPT-4 or Anthropic Claude 3)
@@ -103,7 +103,7 @@ The Agricultural Safety AI System addresses critical safety challenges in agricu
   - Personnel proximity and trajectory vectors
   - Historical incident patterns
 
-### 📊 Visualization & Monitoring
+###  Visualization & Monitoring
 
 - **Real-Time Visualization**
   - Bounding box overlays with risk-level color coding
@@ -117,7 +117,7 @@ The Agricultural Safety AI System addresses critical safety challenges in agricu
   - Risk metrics and statistics
   - Alert notification system
 
-### 🚨 Safety Protocols
+###  Safety Protocols
 
 - **Automated Alert Escalation**
   - Rule-based alert generation
