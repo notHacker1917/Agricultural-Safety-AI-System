@@ -20,7 +20,7 @@ Uses advanced algorithms:
 - Environmental adaptation algorithms
 """
 
-import numpy as np
+import numpy as np 
 import cv2
 import logging
 from typing import List, Tuple, Dict, Optional, Any, Union
