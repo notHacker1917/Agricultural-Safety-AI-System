@@ -5,7 +5,7 @@ Advanced LLM-Enhanced Agricultural Safety Risk Assessment System
 Implements the comprehensive risk assessment specification with:
 - Multi-modal human detection algorithms
 - LLM-powered contextual understanding
-- Advanced trajectory prediction
+- Advanced trajectory prediction 
 - Safety-critical decision making
 - Edge case handling with uncertainty management
 
