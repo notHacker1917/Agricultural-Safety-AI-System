@@ -10,7 +10,7 @@ from typing import List, Tuple, Dict, Optional
 import logging
 
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__) 
 
 # ============================================================================
 # 1. MULTI-SCALE HUMAN DETECTOR
