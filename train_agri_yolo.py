@@ -7,7 +7,7 @@ Fine-tunes YOLO model on agricultural safety dataset
 import argparse
 import logging
 import os
-from pathlib import Path
+from pathlib import Path 
 
 import torch
 from ultralytics import YOLO
