@@ -13,7 +13,7 @@ from ultralytics import YOLO
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 PERSON_CLASS_ID = 0
 
-
+ 
 def ensure_dir(path):
     os.makedirs(path, exist_ok=True)
     return path
