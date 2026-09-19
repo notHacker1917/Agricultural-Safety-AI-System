@@ -12,7 +12,7 @@ dataset_root = r"C:\Users\hs735.COLTSMOKE\OneDrive\Documents\Hackathon\HackHPI20
 data_dir = os.path.join(dataset_root, "data")
 
 def test_detector():
-    # Initialize detector with YOLO only (disable other methods)
+    # Initialize detector with YOLO only (disable other methods) 
     detector = AgriculturalHumanDetector(
         model_path='yolov8n.pt',
         conf=0.1,  # Very low confidence
