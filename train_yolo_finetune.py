@@ -15,7 +15,7 @@ PERSON_CLASS_ID = 0
 
  
 def ensure_dir(path):
-    os.makedirs(path, exist_ok=True)
+    os.makedirs(path, exist_ok=True) 
     return path
 
 
