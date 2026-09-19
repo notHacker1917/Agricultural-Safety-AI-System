@@ -9,7 +9,7 @@ def main():
     logging.info(f"Using device: {device}")
     
     # Load pretrained model
-    model = YOLO('yolov8n.pt')
+    model = YOLO('yolov8n.pt') 
     
     # Fine-tune on dataset
     # Lightweight: small epochs, batch, imgsz
