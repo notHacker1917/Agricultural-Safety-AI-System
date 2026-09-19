@@ -11,7 +11,7 @@ from pathlib import Path
 
 print("\n" + "="*70)
 print("AGRICULTURAL SAFETY AI - SUBMISSION VALIDATION")
-print("="*70)
+print("="*70) 
 
 # Test 1: Import all components
 print("\n[TEST 1] Component Imports...")
