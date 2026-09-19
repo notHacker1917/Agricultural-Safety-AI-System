@@ -11,7 +11,7 @@ class VideoInput:
 
         Args:
             source (int or str): 0 for webcam, or path to video file.
-        """
+        """ 
         self.cap = cv2.VideoCapture(source)
         if not self.cap.isOpened():
             logging.warning(f"Failed to open {source}, trying webcam")
