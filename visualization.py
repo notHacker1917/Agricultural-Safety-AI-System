@@ -3,7 +3,7 @@ import numpy as np
 import logging
 
 class Visualizer:
-    """
+    """ 
     Visualize detections and trajectories.
     """
     def __init__(self, storage=None):
