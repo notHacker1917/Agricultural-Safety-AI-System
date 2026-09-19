@@ -1,4 +1,4 @@
-"""
+ """
 Tractor Geometry & Field of View Analysis
 
 Models realistic tractor dimensions, camera mounting, and field-of-view geometry
