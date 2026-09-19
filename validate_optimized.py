@@ -7,7 +7,7 @@ Simplified working version that integrates with existing pipeline
 import json
 import os
 import logging
-import sys
+import sys 
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 import numpy as np
