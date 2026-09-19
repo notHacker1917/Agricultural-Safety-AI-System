@@ -9,7 +9,7 @@ from ultralytics import YOLO
 def test_yolo_direct():
     """Test YOLO directly on HackHPI image"""
 
-    # Load YOLO model directly
+    # Load YOLO model directly 
     model = YOLO('yolov8n.pt')  # Use nano model that's already downloaded
 
     # Load first HackHPI image
