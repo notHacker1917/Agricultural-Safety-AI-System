@@ -12,7 +12,7 @@ def create_demo_frame():
     frame = np.random.randint(0, 255, (480, 640, 3), dtype=np.uint8)
 
     # Add some human-like shapes
-    # Body
+    # Body 
     cv2.rectangle(frame, (200, 150), (250, 300), (100, 100, 100), -1)
     # Head
     cv2.circle(frame, (225, 170), 20, (150, 150, 150), -1)
