@@ -5,7 +5,7 @@ class VideoInput:
     """
     Handles video input from file or webcam.
     """
-    def __init__(self, source=0):
+    def __init__(self, source=0): 
         """
         Initialize video capture.
 
