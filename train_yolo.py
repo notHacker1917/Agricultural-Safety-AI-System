@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO)
 def main():
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     logging.info(f"Using device: {device}")
-    
+     
     # Load pretrained model
     model = YOLO('yolov8n.pt') 
     
