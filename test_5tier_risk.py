@@ -9,7 +9,7 @@ sys.path.insert(0, '.')
 
 from enhanced_risk_assessor import EnhancedRiskAssessor
 import numpy as np
-import logging
+import logging 
 
 logging.basicConfig(
     level=logging.INFO,
