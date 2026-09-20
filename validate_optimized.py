@@ -2,7 +2,7 @@
 """
 OPTIMIZED AGRICULTURAL SAFETY SYSTEM - PRODUCTION VERSION
 Simplified working version that integrates with existing pipeline
-"""
+""" 
 
 import json
 import os
