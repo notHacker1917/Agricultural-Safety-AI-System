@@ -5,7 +5,7 @@ Test script for enhanced far-distance human detection capabilities.
 
 import numpy as np
 import cv2
-import sys
+import sys 
 import os
 
 # Add current directory to path
