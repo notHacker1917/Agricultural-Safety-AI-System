@@ -7,7 +7,7 @@ import numpy as np
 print("Testing camera access...")
 
 for idx in range(5):
-    print(f"\nTesting camera index {idx}...")
+    print(f"\nTesting camera index {idx}...") 
     cap = cv2.VideoCapture(idx)
     if not cap.isOpened():
         print(f"  ✗ Camera {idx}: Not opened")
