@@ -6,7 +6,7 @@ Analyzes field conditions using computer vision to extract:
 - Soil type (clay, sand, loam, etc.)
 - Vegetation coverage
 - Field drainage patterns
-- Risk factors based on soil-machinery interaction
+- Risk factors based on soil-machinery interaction 
 
 This provides CONTEXT for human movement predictions and risk assessment.
 """
