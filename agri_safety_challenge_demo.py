@@ -12,7 +12,7 @@ Features demonstrated:
 4. Ultra-far distance detection (100-150m)
 5. Real-time risk assessment with contextual understanding
 6. Comprehensive KPI calculation and reporting
-"""
+""" 
 
 import os
 import cv2
