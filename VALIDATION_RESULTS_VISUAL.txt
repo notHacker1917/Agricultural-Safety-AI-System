@@ -12,7 +12,7 @@
 ================================================================================
 
 System Type:            Multi-Method Human Detection (YOLO + HOG + Contour + Skin)
-Dataset:                HackHPI2026 Autonomous Harvester Field Tests
+Dataset:                HackHPI2026 Autonomous Harvester Field Tests 
 Dataset Size:           2,466 Images with 4,076 Annotations
 Validation Subset:      211 Images with 834 Ground Truth Annotations
 Total Detections:       764 Detections Made
