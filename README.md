@@ -7,7 +7,7 @@
 
 A comprehensive AI-powered system for real-time human detection, trajectory prediction, and safety assessment in agricultural environments. Combines advanced computer vision, motion tracking, and LLM-powered contextual analysis to prevent accidents around agricultural machinery.
 
-##  Table of Contents
+##  Table of Contents 
 
 - [Overview](#overview)
 - [Key Features](#key-features)
