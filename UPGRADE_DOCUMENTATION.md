@@ -7,7 +7,7 @@ This document describes the upgrades made to the Agricultural Safety AI System t
 ## Architecture Flow
 
 ```
-Input Frame
+Input Frame 
     ↓
 Agricultural Preprocessing (CLAHE, brightness normalization, shadow suppression)
     ↓
