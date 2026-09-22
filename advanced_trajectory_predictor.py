@@ -9,7 +9,7 @@ Handles:
 - Rain and weather degradation
 - Opaque obstacles and occlusions
 - Complex human walking patterns
-- Agricultural machinery interactions
+- Agricultural machinery interactions 
 
 Uses advanced algorithms:
 - Kalman Filtering with adaptive noise models
