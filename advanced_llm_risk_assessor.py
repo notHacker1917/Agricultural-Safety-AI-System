@@ -9,7 +9,7 @@ Implements the comprehensive risk assessment specification with:
 - Safety-critical decision making
 - Edge case handling with uncertainty management
 
-Risk Levels: SAFE, LOW, MEDIUM, HIGH, CRITICAL
+Risk Levels: SAFE, LOW, MEDIUM, HIGH, CRITICAL 
 Safety Principle: When uncertain, ALWAYS choose HIGHER risk level
 """
 
