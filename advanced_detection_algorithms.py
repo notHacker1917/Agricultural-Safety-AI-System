@@ -7,7 +7,7 @@ Designed to work with demo frames and real-time processing
 import cv2
 import numpy as np
 from typing import List, Tuple, Dict, Optional
-import logging
+import logging 
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__) 
