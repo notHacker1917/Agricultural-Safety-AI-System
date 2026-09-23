@@ -8,7 +8,7 @@ Integrated system with all improvements:
 """
 
 import cv2
-import numpy as np
+import numpy as np 
 from typing import Dict, List, Tuple, Optional, Any
 import logging
 import time
