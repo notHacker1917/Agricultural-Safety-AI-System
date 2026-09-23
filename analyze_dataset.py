@@ -6,7 +6,7 @@ including all images and JSON annotation files.
 """
 
 import json
-import os
+import os 
 from pathlib import Path
 from collections import defaultdict, Counter
 import numpy as np
