@@ -4,7 +4,7 @@
 with open('enhanced_agri_safety_llm.py', 'r', encoding='utf-8') as f:
     content = f.read()
 
-# Replace special characters
+# Replace special characters 
 replacements = {
     '•': '-',
     '✅': '*',
