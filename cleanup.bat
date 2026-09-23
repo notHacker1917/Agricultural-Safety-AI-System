@@ -6,7 +6,7 @@ del dashboard.py
 del detection.py
 del evaluate_agri_models.py
 del evaluate_agri_safety.py
-del evaluate_coco.py
+del evaluate_coco.py 
 del evaluate_safety_system.py
 del failure_case_analysis.py
 del generate_sample_video.py
