@@ -9,7 +9,7 @@ from detection import ObjectDetector as Detection
 from segmentation_tracking import DeepSORTTracker as SegmentationTracking
 from safety_engine import SafetyEngine
 from visualization import Visualizer
-from trajectory_storage import TrajectoryStorage
+from trajectory_storage import TrajectoryStorage 
 import logging
 
 app = Flask(__name__)
