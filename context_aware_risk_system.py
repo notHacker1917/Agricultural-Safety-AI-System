@@ -12,7 +12,7 @@ REALISM: Risk is computed from actual geometric proximity, soil conditions,
 movement capability, and tractor dynamics rather than arbitrary thresholds.
 """
 
-import numpy as np
+import numpy as np 
 from dataclasses import dataclass
 from enum import Enum
 from typing import List, Tuple, Optional, Dict
