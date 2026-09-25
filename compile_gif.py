@@ -8,7 +8,7 @@ import os
 import glob
 import argparse
 import tempfile
-from pathlib import Path
+from pathlib import Path 
 from PIL import Image
 import json
 import webbrowser
