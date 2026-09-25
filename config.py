@@ -11,7 +11,7 @@ import numpy as np
 @dataclass
 class DetectionConfig:
     """Configuration for detection pipeline."""
-    # Model settings
+    # Model settings 
     model_path: str = 'yolov8n.pt'
     base_confidence: float = 0.5
     nms_threshold: float = 0.45
