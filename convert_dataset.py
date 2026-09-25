@@ -10,7 +10,7 @@ from pathlib import Path
 from collections import defaultdict
 
 def convert_coco_to_yolo():
-    # Create processed directory structure in data folder
+    # Create processed directory structure in data folder 
     processed_dir = Path('data/processed')
     images_dir = processed_dir / 'images'
     labels_dir = processed_dir / 'labels'
