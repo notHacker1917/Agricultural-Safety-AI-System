@@ -9,7 +9,7 @@ import cv2
 import numpy as np
 from coco_loader import COCODataset
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s') 
 
 FAILURE_CATEGORIES = [
     'occlusion_failure',
