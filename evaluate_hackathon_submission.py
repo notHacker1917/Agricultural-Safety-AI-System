@@ -10,7 +10,7 @@ This script:
 4. Compares metrics: mAP, Recall, Precision, FNR, etc.
 5. Generates detailed analysis by object size
 6. Outputs results for hackathon submission
-
+ 
 Usage:
     python evaluate_hackathon_submission.py --data-dir path/to/coco --output-dir results/
 """
