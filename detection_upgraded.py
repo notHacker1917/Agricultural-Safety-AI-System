@@ -9,7 +9,7 @@ Implements:
 - Temporal detection stability
 - Detection evaluation hooks
 """
-
+ 
 import cv2
 import numpy as np
 from typing import List, Tuple, Dict, Optional, Any
