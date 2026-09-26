@@ -8,7 +8,7 @@ from detection import ObjectDetector
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+ 
 def compute_iou(box1, box2):
     """
     Compute IoU between two boxes.
