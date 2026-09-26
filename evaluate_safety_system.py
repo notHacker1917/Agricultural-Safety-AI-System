@@ -8,7 +8,7 @@ from pycocotools.coco import COCO
 import cv2
 from detection import ObjectDetector
 from segmentation_tracking import DeepSORTTracker
-
+ 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
