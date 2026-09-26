@@ -6,7 +6,7 @@ from preprocessing import ImagePreprocessor
 
 class HumanVerifier:
     """
-    Simple human verification based on bounding box properties.
+    Simple human verification based on bounding box properties. 
     """
     def __init__(self, min_aspect_ratio=0.1, max_aspect_ratio=2.0, min_area_ratio=0.0001):
         self.min_aspect_ratio = min_aspect_ratio
