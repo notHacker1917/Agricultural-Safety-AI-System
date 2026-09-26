@@ -7,7 +7,7 @@ Compliant with competition requirements:
 """
 
 import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
+import matplotlib.patches as mpatches 
 from matplotlib.patches import FancyBboxPatch, Rectangle
 import numpy as np
 from datetime import datetime
