@@ -8,7 +8,7 @@ Shows the key performance metrics from the agricultural safety system validation
 import json
 import os
 
-def main():
+def main(): 
     # Find the latest validation report
     log_dir = os.path.expanduser("~/safety_logs")
     reports = [f for f in os.listdir(log_dir) if f.startswith("real_world_validation_report_")]
