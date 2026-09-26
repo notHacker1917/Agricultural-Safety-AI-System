@@ -9,7 +9,7 @@ import threading
 import time
 from dataclasses import dataclass
 from typing import Optional, Callable
-from enum import Enum
+from enum import Enum 
 import logging
 
 logger = logging.getLogger(__name__)
