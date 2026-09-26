@@ -9,7 +9,7 @@ def generate_sample_video(output_path='sample_video.mp4', num_frames=30, width=6
     Generate a synthetic video with moving rectangles (mock people) - BRIGHT VERSION.
     
     Args:
-        output_path (str): Path to save the video.
+        output_path (str): Path to save the video. 
         num_frames (int): Number of frames to generate.
         width (int): Video width.
         height (int): Video height.
