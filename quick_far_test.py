@@ -4,7 +4,7 @@ Quick test for ultra-far detection capabilities.
 """
 
 import numpy as np
-import cv2
+import cv2 
 import sys
 import os
 
