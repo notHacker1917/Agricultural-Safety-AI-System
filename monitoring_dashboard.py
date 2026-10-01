@@ -7,7 +7,7 @@ visual alerts, and decision explanations.
 
 import threading
 import time
-import cv2
+import cv2 
 import numpy as np
 from collections import deque
 from datetime import datetime
