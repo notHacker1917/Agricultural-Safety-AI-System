@@ -9,7 +9,7 @@ class ImagePreprocessor:
     """
     def __init__(self, enable_clahe=True, enable_blur=True, enable_brightness_norm=True):
         self.enable_clahe = enable_clahe
-        self.enable_blur = enable_blur
+        self.enable_blur = enable_blur 
         self.enable_brightness_norm = enable_brightness_norm
         logging.info("Image preprocessor initialized")
 
