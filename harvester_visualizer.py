@@ -5,7 +5,7 @@ Shows:
 - Danger zones (critical blind spot, warning FOV)
 - Human detections with multi-source confidence
 - Time-to-collision warnings
-- Operator alerts
+- Operator alerts 
 """
 
 import cv2
