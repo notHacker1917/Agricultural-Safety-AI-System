@@ -4,7 +4,7 @@ Runs advanced detection methods on demo frames with visual comparison
 """
 
 import cv2
-import numpy as np
+import numpy as np 
 import logging
 import time
 from pathlib import Path
