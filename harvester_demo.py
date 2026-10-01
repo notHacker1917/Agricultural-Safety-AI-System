@@ -6,7 +6,7 @@ Demonstrates:
 1. Multi-method human detection in challenging field conditions
 2. Harvester field-of-view and blind-spot analysis
 3. Real-time safety alerts for operators
-"""
+""" 
 
 import cv2
 import logging
