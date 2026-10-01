@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import logging
 
-class HomographyTransformer:
+class HomographyTransformer: 
     """
     Transform image coordinates to a ground plane using calibrated homography.
     """
