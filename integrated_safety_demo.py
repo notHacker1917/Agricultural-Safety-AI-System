@@ -8,7 +8,7 @@ Connects all components end-to-end:
 - Emergency escalation
 - Visual monitoring dashboard
 - Audit logging
-
+ 
 Real-time demonstration of complete safety system on live video feed.
 """
 
