@@ -7,7 +7,7 @@ from detection import ObjectDetector
 from segmentation_tracking import DeepSORTTracker
 from trajectory_storage import TrajectoryStorage
 from safety_engine import SafetyEngine
-from visualization import Visualizer
+from visualization import Visualizer 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
