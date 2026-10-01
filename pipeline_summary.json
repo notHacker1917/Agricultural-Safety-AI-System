@@ -5,7 +5,7 @@
     "output_video": "annotated_pipeline_output.mp4",
     "risk_level_counts": {
       "CRITICAL": 0,
-      "HIGH_WARNING": 16,
+      "HIGH_WARNING": 16, 
       "WARNING": 21,
       "LOW_WARNING": 48,
       "SAFE": 5
