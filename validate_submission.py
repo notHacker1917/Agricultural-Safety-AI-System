@@ -4,7 +4,7 @@ Quick validation: Test all components and generate submission metrics
 """
 import json
 import sys
-import time
+import time 
 import numpy as np
 import cv2
 from pathlib import Path
