@@ -4,7 +4,7 @@ Agricultural Safety AI - Web GIF Viewer
 Serves the HTML interface for viewing compiled demo GIFs
 """
 
-import http.server
+import http.server 
 import socketserver
 import os
 import json
