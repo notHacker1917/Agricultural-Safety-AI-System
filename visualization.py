@@ -11,7 +11,7 @@ class Visualizer:
         logging.info("Visualizer initialized")
 
     def get_risk_color(self, risk):
-        """
+        """ 
         Get color based on risk level.
 
         Args:
