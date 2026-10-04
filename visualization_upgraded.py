@@ -8,7 +8,7 @@ Implements:
 - Performance metrics overlay
 """
  
-import cv2
+import cv2 
 import numpy as np
 from typing import List, Tuple, Dict, Optional, Any
 import logging
