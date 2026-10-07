@@ -29,7 +29,7 @@ class TrajectoryStorage:
             CREATE TABLE IF NOT EXISTS trajectories (
                 frame_id INTEGER,
                 object_id INTEGER,
-                centroid_x REAL,
+                centroid_x REAL, 
                 centroid_y REAL,
                 mask_area REAL
             )
