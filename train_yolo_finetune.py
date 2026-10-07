@@ -17,7 +17,7 @@ PERSON_CLASS_ID = 0
 def ensure_dir(path):
     os.makedirs(path, exist_ok=True) 
     return path
-
+ 
 
 def load_coco_annotations(annotations_path):
     with open(annotations_path, 'r', encoding='utf-8') as f:
