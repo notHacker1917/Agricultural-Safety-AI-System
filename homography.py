@@ -12,7 +12,7 @@ class HomographyTransformer:
 
         Args:
             src_points (list): Four image points in pixel coordinates.
-            dst_scale (tuple): Width and depth of destination ground plane in meters.
+            dst_scale (tuple): Width and depth of destination ground plane in meters. 
         """
         self.src_points = src_points or [(120, 460), (520, 460), (540, 300), (100, 300)]
         self.dst_scale = dst_scale
