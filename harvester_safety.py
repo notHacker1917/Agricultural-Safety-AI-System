@@ -11,7 +11,7 @@ Focuses on:
 import numpy as np
 import logging
 from datetime import datetime
-
+ 
 class HarvesterSafetyEngine:
     """
     Advanced Safety system for harvester/truck-human interactions with 5-tier risk assessment.
