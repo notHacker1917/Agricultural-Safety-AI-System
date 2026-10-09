@@ -10,7 +10,7 @@ Demonstrates:
 
 import cv2
 import logging
-import argparse
+import argparse 
 import tempfile
 import json
 from datetime import datetime
