@@ -6,7 +6,7 @@ Connects all components end-to-end:
 - Terrain analysis
 - Risk assessment (7-factor model)
 - Emergency escalation
-- Visual monitoring dashboard
+- Visual monitoring dashboard 
 - Audit logging
  
 Real-time demonstration of complete safety system on live video feed.
