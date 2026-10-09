@@ -9,7 +9,7 @@ import threading
 import time
 import cv2 
 import numpy as np
-from collections import deque
+from collections import deque 
 from datetime import datetime
 from typing import Dict, List, Tuple, Optional
 from enum import Enum
