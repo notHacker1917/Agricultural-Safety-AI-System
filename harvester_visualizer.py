@@ -7,7 +7,7 @@ Shows:
 - Time-to-collision warnings
 - Operator alerts 
 """
-
+ 
 import cv2
 import numpy as np
 import logging
