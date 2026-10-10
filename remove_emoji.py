@@ -5,7 +5,7 @@ root = pathlib.Path(r'C:\Users\hs735.COLTSMOKE\OneDrive\Documents\Hackathon\agri
 
 # More comprehensive emoji regex
 emoji_re = re.compile(
-    r'[\U0001F600-\U0001F64F'  # emoticons
+    r'[\U0001F600-\U0001F64F'  # emoticons 
     r'\U0001F300-\U0001F5FF'  # symbols & pictographs
     r'\U0001F680-\U0001F6FF'  # transport & map symbols
     r'\U0001F1E0-\U0001F1FF'  # flags (iOS)
