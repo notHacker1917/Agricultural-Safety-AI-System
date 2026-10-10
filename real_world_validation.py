@@ -7,7 +7,7 @@ Generates comprehensive performance metrics.
 
 Supports:
 - Full dataset processing (2,466 images)
-- Distance-stratified metrics
+- Distance-stratified metrics 
 - Scenario-specific analysis
 - Precision/recall calculation
 - Performance comparison to KPI targets
