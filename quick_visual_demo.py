@@ -6,7 +6,7 @@ Quick visual demo of Agricultural Safety AI results
 import cv2
 import numpy as np
 from harvester_safety import HarvesterSafetyEngine
-from harvester_visualizer import HarvesterSafetyVisualizer
+from harvester_visualizer import HarvesterSafetyVisualizer 
 
 def create_demo_visualization():
     """Create a demo image showing the 5-tier safety system"""
