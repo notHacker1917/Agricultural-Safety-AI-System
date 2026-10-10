@@ -4,7 +4,7 @@ Agricultural Safety AI - Enhanced Demo with Custom Model Support
 """
 
 import argparse
-import cv2
+import cv2 
 import json
 import logging
 import os
