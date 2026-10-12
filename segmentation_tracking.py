@@ -6,7 +6,7 @@ class DeepSORTTracker:
     """
     Tracking using DeepSORT for consistent IDs.
     """
-    def __init__(self, max_predict_frames=5, min_speed=1.0):
+    def __init__(self, max_predict_frames=5, min_speed=1.0): 
         self.max_predict_frames = max_predict_frames
         self.min_speed = min_speed
         self.tracker = DeepSort(max_age=30, n_init=3, nms_max_overlap=1.0, max_cosine_distance=0.2, nn_budget=100)
