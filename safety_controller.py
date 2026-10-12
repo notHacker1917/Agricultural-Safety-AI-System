@@ -10,7 +10,7 @@ Integrates all safety components:
 - Audit Logging
 
 This is production-grade code designed to run on Jetson Orin
-and prevent agricultural machinery accidents in real-time.
+and prevent agricultural machinery accidents in real-time. 
 """
 
 import numpy as np
