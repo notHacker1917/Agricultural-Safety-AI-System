@@ -11,7 +11,7 @@ class SafetyEngine:
     and logs critical events when a predicted path enters the tractor safety zone.
     """
 
-    def __init__(
+    def __init__( 
         self,
         tractor_center=(0.5, 0.0),
         homography=None,
