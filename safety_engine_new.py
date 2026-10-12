@@ -6,7 +6,7 @@ import logging
 class SafetyEngine:
     """
     Predictive safety engine for agricultural tractor-human interactions.
-
+ 
     The engine computes current and future collision risk, estimates time-to-collision,
     and logs critical events when a predicted path enters the tractor safety zone.
     """
