@@ -5,7 +5,7 @@ Generates comprehensive visual summary of all 5 risk parameters
 """
 
 import json
-from pathlib import Path
+from pathlib import Path 
 import tempfile
 
 def generate_visual_summary():
