@@ -9,7 +9,7 @@ class VideoStabilizer:
     def __init__(self, max_history=20, feature_count=200):
         self.prev_gray = None
         self.transforms = []
-        self.max_history = max_history
+        self.max_history = max_history 
         self.feature_count = feature_count
         logging.info("Video stabilizer initialized")
 
