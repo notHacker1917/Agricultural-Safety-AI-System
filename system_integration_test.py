@@ -7,7 +7,7 @@ Demonstrates all safety components working together:
 ✓ Risk assessment (7-factor model)
 ✓ Safety controller orchestration
 ✓ Emergency protocols & escalation
-✓ Monitoring dashboard & alerts
+✓ Monitoring dashboard & alerts 
 ✓ Audit logging
 
 This test creates synthetic detections and processes them
