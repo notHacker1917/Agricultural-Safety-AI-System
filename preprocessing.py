@@ -7,7 +7,7 @@ class ImagePreprocessor:
     Preprocessing pipeline for agricultural environments.
     Improves detection under dust, shadows, low-light.
     """
-    def __init__(self, enable_clahe=True, enable_blur=True, enable_brightness_norm=True):
+    def __init__(self, enable_clahe=True, enable_blur=True, enable_brightness_norm=True): 
         self.enable_clahe = enable_clahe
         self.enable_blur = enable_blur 
         self.enable_brightness_norm = enable_brightness_norm
