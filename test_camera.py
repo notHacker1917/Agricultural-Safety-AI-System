@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 print("Testing camera access...")
-
+ 
 for idx in range(5):
     print(f"\nTesting camera index {idx}...") 
     cap = cv2.VideoCapture(idx)
