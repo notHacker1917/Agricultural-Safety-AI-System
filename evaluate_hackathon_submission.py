@@ -6,7 +6,7 @@ Comprehensive evaluation script to validate hackathon metrics
 This script:
 1. Loads COCO dataset (person class only)
 2. Runs baseline YOLO detection
-3. Runs advanced ensemble detection
+3. Runs advanced ensemble detection 
 4. Compares metrics: mAP, Recall, Precision, FNR, etc.
 5. Generates detailed analysis by object size
 6. Outputs results for hackathon submission
