@@ -6,7 +6,7 @@ Evaluates trained models on agricultural safety scenarios
 
 import argparse 
 import json
-import logging
+import logging 
 import os
 from pathlib import Path
 from collections import defaultdict
