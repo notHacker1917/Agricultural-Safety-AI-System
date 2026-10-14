@@ -3,7 +3,7 @@ import json
 import logging
 import numpy as np
 from pycocotools.coco import COCO
-import cv2
+import cv2 
 from detection import ObjectDetector
 
 # Set up logging
