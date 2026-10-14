@@ -8,7 +8,7 @@ import numpy as np
 import logging
 from datetime import datetime
  
-class EnhancedRiskAssessor:
+class EnhancedRiskAssessor: 
     """
     Comprehensive 5-tier risk assessment with ALL parameter verification.
     
