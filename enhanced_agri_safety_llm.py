@@ -8,7 +8,7 @@ This system addresses the agricultural safety challenge by:
 3. Multi-modal detection with thermal and visual fusion
 4. Advanced risk assessment with contextual understanding
 """
-
+ 
 import os 
 import json
 import logging
