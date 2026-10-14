@@ -4,7 +4,7 @@ Emergency Response Protocols for Agricultural Safety
 Defines fail-safe mechanisms and escalation procedures for
 emergency situations. Critical for functional safety (IEC 61508).
 """
-
+ 
 import threading
 import time
 from dataclasses import dataclass
