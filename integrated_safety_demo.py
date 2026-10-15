@@ -11,7 +11,7 @@ Connects all components end-to-end:
  
 Real-time demonstration of complete safety system on live video feed.
 """
-
+ 
 import cv2
 import numpy as np
 import argparse
