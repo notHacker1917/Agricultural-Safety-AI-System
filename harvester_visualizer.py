@@ -9,7 +9,7 @@ Shows:
 """
  
 import cv2
-import numpy as np
+import numpy as np 
 import logging
 
 class HarvesterSafetyVisualizer:
