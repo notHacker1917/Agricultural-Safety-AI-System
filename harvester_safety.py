@@ -9,7 +9,7 @@ Focuses on:
 """ 
 
 import numpy as np
-import logging
+import logging 
 from datetime import datetime
  
 class HarvesterSafetyEngine:
