@@ -9,7 +9,7 @@ import os
 import glob
 import tempfile
 from pathlib import Path 
-from PIL import Image
+from PIL import Image 
 import json
 import pandas as pd
 
