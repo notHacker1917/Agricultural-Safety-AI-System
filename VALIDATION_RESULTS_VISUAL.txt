@@ -8,7 +8,7 @@
                                   April 11, 2026
 
 ================================================================================
-                             📊 EXECUTIVE SUMMARY
+                             📊 EXECUTIVE SUMMARY 
 ================================================================================
 
 System Type:            Multi-Method Human Detection (YOLO + HOG + Contour + Skin)
