@@ -6,7 +6,7 @@ Implements the comprehensive risk assessment specification with:
 - Multi-modal human detection algorithms
 - LLM-powered contextual understanding
 - Advanced trajectory prediction 
-- Safety-critical decision making
+- Safety-critical decision making 
 - Edge case handling with uncertainty management
 
 Risk Levels: SAFE, LOW, MEDIUM, HIGH, CRITICAL 
