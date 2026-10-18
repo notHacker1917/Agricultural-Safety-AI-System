@@ -4,7 +4,7 @@ ADVANCED HUMAN TRAJECTORY PREDICTION SYSTEM
 Robust trajectory prediction for challenging agricultural environments
 
 Handles:
-- Windy conditions with unpredictable motion
+- Windy conditions with unpredictable motion 
 - Dust storms and reduced visibility
 - Rain and weather degradation
 - Opaque obstacles and occlusions
