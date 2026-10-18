@@ -13,7 +13,7 @@ A comprehensive AI-powered system for real-time human detection, trajectory pred
 - [Key Features](#key-features)
 - [Quick Start](#quick-start)
 - [Tech Stack](#tech-stack)
-- [System Architecture](#system-architecture)
+- [System Architecture](#system-architecture) 
 - [Installation](#installation)
 - [Usage Guide](#usage-guide)
 - [Project Structure](#project-structure)
