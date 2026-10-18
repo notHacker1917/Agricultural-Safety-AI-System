@@ -7,7 +7,7 @@ Focuses on human detection with 100% reliability for autonomous harvester safety
 
 import os
 import cv2
-import numpy as np
+import numpy as np 
 from ultralytics import YOLO
 import torch
 import logging 
