@@ -9,7 +9,7 @@ import json
 import os 
 from pathlib import Path
 from collections import defaultdict, Counter
-import numpy as np
+import numpy as np 
 
 def analyze_all_dataset():
     """Analyze all images and JSON files in the HackHPI2026 dataset."""
