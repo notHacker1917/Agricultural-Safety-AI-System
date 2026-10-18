@@ -8,7 +8,7 @@ This demo showcases the complete solution to the agricultural safety challenge:
 Features demonstrated:
 1. Kaggle dataset integration and validation
 2. LLM-enhanced edge case detection and handling
-3. Multi-modal detection (visual + thermal)
+3. Multi-modal detection (visual + thermal) 
 4. Ultra-far distance detection (100-150m)
 5. Real-time risk assessment with contextual understanding
 6. Comprehensive KPI calculation and reporting
