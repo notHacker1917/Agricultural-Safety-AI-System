@@ -8,7 +8,7 @@ and advanced safety protocols for comprehensive human detection in agricultural 
 Features:
 - Multi-scale human detection
 - Motion-based tracking
-- Depth estimation and risk categorization
+- Depth estimation and risk categorization 
 - Contextual awareness with temporal analysis 
 - LLM-enhanced risk assessment with safety-critical decision making
 - Real-time visualization and alerts
