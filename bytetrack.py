@@ -1,7 +1,7 @@
 """
 ByteTrack Implementation for Agricultural Safety AI System
 Replaces DeepSORT with ByteTrack for better occlusion handling and identity consistency.
-
+ 
 ByteTrack associates every detection (high and low confidence) instead of only using
 high-confidence detections, which significantly improves tracking in crowded scenes
 and during occlusions.
