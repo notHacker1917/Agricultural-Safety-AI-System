@@ -5,7 +5,7 @@ import cv2
 
 class COCODataset:
     def __init__(self, json_path, img_dir):
-        with open(json_path, 'r', encoding='utf-8') as f:
+        with open(json_path, 'r', encoding='utf-8') as f: 
             self.data = json.load(f)
  
         self.img_dir = img_dir
