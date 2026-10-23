@@ -5,7 +5,7 @@ import logging
 from ultralytics import YOLO
 import torch
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO) 
 
 def load_coco_dataset(annotations_path, images_dir):
     """
