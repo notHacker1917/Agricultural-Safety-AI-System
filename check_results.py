@@ -4,7 +4,7 @@ validator = RealWorldValidator()
 
 # Step 1: Load ground truth
 ground_truth = validator.load_ground_truth()
-if not ground_truth:
+if not ground_truth: 
     print("Failed to load ground truth")  
     exit(1)
 
