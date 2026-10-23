@@ -6,5 +6,5 @@ for i in range(5):
     print(f'index {i}: opened={ok}')
     if ok:
         ret, frame = cap.read()
-        print(f'  read={ret}, size={None if frame is None else frame.shape}')
+        print(f'  read={ret}, size={None if frame is None else frame.shape}') 
         cap.release()
