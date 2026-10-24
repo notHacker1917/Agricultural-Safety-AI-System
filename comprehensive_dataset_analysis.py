@@ -9,7 +9,7 @@ import cv2
 import numpy as np 
 from pathlib import Path
 from collections import defaultdict, Counter
-import logging
+import logging 
 from typing import Dict, List, Tuple, Optional
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
