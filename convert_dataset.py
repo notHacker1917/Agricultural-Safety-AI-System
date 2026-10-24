@@ -2,7 +2,7 @@
 """
 Convert HackHPI2026_release dataset from COCO to YOLO format
 """
-
+ 
 import os
 import json
 import shutil
