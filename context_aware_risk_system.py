@@ -7,7 +7,7 @@ Combines:
 - Person detection & trajectory tracking
 - Physics-based movement modeling
 - Multi-factor risk stratification
-
+ 
 REALISM: Risk is computed from actual geometric proximity, soil conditions,
 movement capability, and tractor dynamics rather than arbitrary thresholds.
 """
