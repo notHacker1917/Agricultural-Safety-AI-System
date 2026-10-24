@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import threading
 import time
-import json
+import json 
 import os
 from flask import Flask, render_template, Response, request, jsonify
 from detection import ObjectDetector as Detection
