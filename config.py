@@ -6,7 +6,7 @@ All thresholds, parameters, and settings in one place.
 from dataclasses import dataclass, field
 from typing import List, Tuple, Dict
 import numpy as np
-
+ 
 
 @dataclass
 class DetectionConfig:
