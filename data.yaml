@@ -2,6 +2,6 @@ path: C:/Users/hs735.COLTSMOKE/OneDrive/Documents/Hackathon/HackHPI2026_release/
 train: images 
 val: images
 
-# Classes
+# Classes 
 nc: 1
 names: ['person']
