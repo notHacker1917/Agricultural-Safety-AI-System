@@ -6,7 +6,7 @@ import json
 import pandas as pd
 from pathlib import Path
 import tempfile
-from PIL import Image
+from PIL import Image 
 
 st.set_page_config(page_title="Agricultural Safety AI Demo", page_icon="🚜", layout="wide")
 
