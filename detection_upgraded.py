@@ -5,7 +5,7 @@ Implements:
 - SAHI slicing for small/far human detection
 - Agricultural preprocessing (CLAHE, brightness normalization, shadow suppression)
 - Detection filtering with human aspect ratio validation
-- Confidence fusion (YOLO + motion + temporal)
+- Confidence fusion (YOLO + motion + temporal) 
 - Temporal detection stability
 - Detection evaluation hooks
 """
