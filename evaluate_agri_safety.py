@@ -5,7 +5,7 @@ import numpy as np
 from pycocotools.coco import COCO
 import cv2 
 from detection import ObjectDetector
-
+ 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
  
