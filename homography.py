@@ -9,7 +9,7 @@ class HomographyTransformer:
     def __init__(self, src_points=None, dst_scale=(20.0, 40.0)):
         """
         Initialize homography transformer.
- 
+  
         Args:
             src_points (list): Four image points in pixel coordinates.
             dst_scale (tuple): Width and depth of destination ground plane in meters. 
