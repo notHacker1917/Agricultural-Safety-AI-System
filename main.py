@@ -4,7 +4,7 @@ import os
 import cv2
 from coco_loader import COCODataset
 from detection import ObjectDetector
-from segmentation_tracking import DeepSORTTracker
+from segmentation_tracking import DeepSORTTracker 
 from trajectory_storage import TrajectoryStorage 
 from safety_engine import SafetyEngine
 from visualization import Visualizer 
