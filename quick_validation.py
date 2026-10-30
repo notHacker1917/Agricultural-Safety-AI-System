@@ -10,7 +10,7 @@ validator = RealWorldValidator()
 print("Loading ground truth...")
 ground_truth = validator.load_ground_truth()
 if not ground_truth:
-    print("Failed to load ground truth")
+    print("Failed to load ground truth") 
     exit(1)
  
 # Step 2: Run detection on dataset (smaller sample for speed)
