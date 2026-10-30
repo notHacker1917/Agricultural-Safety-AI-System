@@ -6,7 +6,7 @@ Comprehensive fixes:
 1. Increased confidence thresholds (0.25 → 0.50 minimum)
 2. Added post-processing NMS filtering
 3. Disabled slow detection methods (HOG for validation)
-4. Optimized YOLO detection pipeline
+4. Optimized YOLO detection pipeline 
 5. Added context-aware filtering
 """ 
  
