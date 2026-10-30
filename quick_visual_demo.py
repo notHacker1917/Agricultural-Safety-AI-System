@@ -9,7 +9,7 @@ from harvester_safety import HarvesterSafetyEngine
 from harvester_visualizer import HarvesterSafetyVisualizer 
 
 def create_demo_visualization():
-    """Create a demo image showing the 5-tier safety system"""
+    """Create a demo image showing the 5-tier safety system""" 
 
     # Create a sample frame
     frame = np.ones((480, 640, 3), dtype=np.uint8) * 200  # Light gray background
