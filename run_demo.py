@@ -9,7 +9,7 @@ from pathlib import Path
  
 import numpy as np
 from coco_loader import COCODataset
-from detection import ObjectDetector
+from detection import ObjectDetector 
 from segmentation_tracking import DeepSORTTracker
 from trajectory_storage import TrajectoryStorage
 from safety_engine import SafetyEngine
