@@ -11,7 +11,7 @@ emoji_re = re.compile(
     r'\U0001F1E0-\U0001F1FF'  # flags (iOS)
     r'\U00002500-\U00002BEF'  # chinese char
     r'\U00002702-\U000027B0'
-    r'\U00002702-\U000027B0'
+    r'\U00002702-\U000027B0' 
     r'\U000024C2-\U0001F251'
     r'\U0001f926-\U0001f937'
     r'\U00010000-\U0010ffff'
