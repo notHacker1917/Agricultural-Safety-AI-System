@@ -2,7 +2,7 @@
 REAL-WORLD VALIDATION PIPELINE
 
 Validates agricultural safety system against HackHPI2026 real-world dataset.
-Compares system detections to ground truth annotations.
+Compares system detections to ground truth annotations. 
 Generates comprehensive performance metrics.
 
 Supports:
