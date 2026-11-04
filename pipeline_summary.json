@@ -7,7 +7,7 @@
       "CRITICAL": 0,
       "HIGH_WARNING": 16, 
       "WARNING": 21, 
-      "LOW_WARNING": 48,
+      "LOW_WARNING": 48, 
       "SAFE": 5
     },
     "avg_latency_ms": 1.56,
