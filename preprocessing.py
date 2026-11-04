@@ -5,7 +5,7 @@ import logging
 class ImagePreprocessor:
     """
     Preprocessing pipeline for agricultural environments.
-    Improves detection under dust, shadows, low-light.
+    Improves detection under dust, shadows, low-light. 
     """
     def __init__(self, enable_clahe=True, enable_blur=True, enable_brightness_norm=True): 
         self.enable_clahe = enable_clahe
