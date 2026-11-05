@@ -4,7 +4,7 @@ End-to-end pipeline demo for the Agricultural Safety AI project.
 
 Exercises the real HarvesterSafetyEngine + HarvesterSafetyVisualizer
 on a synthetic video. Uses scripted "detections" (moving humans approaching
-the harvester) so the demo runs without the YOLO/torch stack while still
+the harvester) so the demo runs without the YOLO/torch stack while still 
 demonstrating the risk-assessment + visualization logic end-to-end.
 
 Outputs:
