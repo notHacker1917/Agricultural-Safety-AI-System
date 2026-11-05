@@ -4,7 +4,7 @@ Real-Time Agricultural Safety System Controller
 Integrates all safety components:
 - Detection + Tracking
 - Terrain Analysis
-- Risk Assessment
+- Risk Assessment 
 - Emergency Response
 - Tractor ECU Control
 - Audit Logging
