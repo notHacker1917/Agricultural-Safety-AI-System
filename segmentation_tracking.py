@@ -3,7 +3,7 @@ import logging
 from deep_sort_realtime.deepsort_tracker import DeepSort
 
 class DeepSORTTracker:
-    """
+    """ 
     Tracking using DeepSORT for consistent IDs.
     """
     def __init__(self, max_predict_frames=5, min_speed=1.0): 
