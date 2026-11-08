@@ -6,7 +6,7 @@ def test_preprocessing():
     Test detection with and without preprocessing.
     """
     # Load a test image (assume webcam capture or dummy)
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0) 
     ret, frame = cap.read()
     cap.release()
     if not ret: 
