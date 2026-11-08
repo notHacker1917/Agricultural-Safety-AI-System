@@ -7,7 +7,7 @@ Tests the new thermal detection methods in the AgriculturalHumanDetector.
 
 import os
 import sys
-import cv2
+import cv2 
 import numpy as np
 import logging
 
