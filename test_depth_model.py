@@ -7,7 +7,7 @@ import numpy as np
 import cv2
 import logging 
 from harvester_safety import HarvesterSafetyEngine
-from harvester_visualizer import HarvesterSafetyVisualizer
+from harvester_visualizer import HarvesterSafetyVisualizer 
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
