@@ -4,7 +4,7 @@ Quick test of YOLO detector on HackHPI images
 
 import cv2
 import os
-from agri_detector import AgriculturalHumanDetector
+from agri_detector import AgriculturalHumanDetector 
 from pathlib import Path
 
 # Test on first few images 
