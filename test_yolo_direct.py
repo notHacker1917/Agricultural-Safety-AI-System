@@ -7,7 +7,7 @@ import os
 from ultralytics import YOLO
 
 def test_yolo_direct():
-    """Test YOLO directly on HackHPI image"""
+    """Test YOLO directly on HackHPI image""" 
 
     # Load YOLO model directly 
     model = YOLO('yolov8n.pt')  # Use nano model that's already downloaded
