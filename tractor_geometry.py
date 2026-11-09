@@ -7,7 +7,7 @@ to compute actual distance measurements from pixel coordinates.
 REALISM CHECK:
 - Average combine harvester: 3m wide × 3m tall × 10m long
 - Camera mounting height: ~2.5m (operator cab level)
-- Horizontal FOV: 90-110° (wide angle for safety)
+- Horizontal FOV: 90-110° (wide angle for safety) 
 - Vertical FOV: 60-75° (covers ground ahead)
 """
 
