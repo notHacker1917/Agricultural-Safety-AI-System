@@ -8,7 +8,7 @@ import numpy as np
 from agri_detector import AgriculturalHumanDetector
 
 def create_demo_frame():
-    """Create a demo frame with synthetic human-like features."""
+    """Create a demo frame with synthetic human-like features.""" 
     frame = np.random.randint(0, 255, (480, 640, 3), dtype=np.uint8)
 
     # Add some human-like shapes
