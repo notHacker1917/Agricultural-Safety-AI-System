@@ -4,7 +4,7 @@ import os
 import tempfile
 import numpy as np
 
-class TrajectoryStorage:
+class TrajectoryStorage: 
     """
     Store trajectories in SQLite.
     """
