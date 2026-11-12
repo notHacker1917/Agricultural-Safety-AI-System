@@ -7,7 +7,7 @@ import sys
 import time 
 import numpy as np
 import cv2
-from pathlib import Path
+from pathlib import Path 
 
 print("\n" + "="*70)
 print("AGRICULTURAL SAFETY AI - SUBMISSION VALIDATION")
