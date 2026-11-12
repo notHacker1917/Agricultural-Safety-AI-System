@@ -9,7 +9,7 @@ Implements:
 """
  
 import cv2 
-import numpy as np
+import numpy as np 
 from typing import List, Tuple, Dict, Optional, Any
 import logging
 
