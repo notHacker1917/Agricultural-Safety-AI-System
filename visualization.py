@@ -5,7 +5,7 @@ import logging
 class Visualizer:
     """ 
     Visualize detections and trajectories.
-    """
+    """ 
     def __init__(self, storage=None):
         self.storage = storage
         logging.info("Visualizer initialized")
