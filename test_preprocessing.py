@@ -8,7 +8,7 @@ def test_preprocessing():
     # Load a test image (assume webcam capture or dummy)
     cap = cv2.VideoCapture(0) 
     ret, frame = cap.read()
-    cap.release()
+    cap.release() 
     if not ret: 
         print("Failed to capture image")
         return
