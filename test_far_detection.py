@@ -11,7 +11,7 @@ import os
 # Add current directory to path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from agri_detector import AgriculturalHumanDetector
+from agri_detector import AgriculturalHumanDetector 
 
 def test_far_detection():
     """Test enhanced far-distance human detection capabilities."""
