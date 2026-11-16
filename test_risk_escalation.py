@@ -11,7 +11,7 @@ import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from harvester_safety import HarvesterSafetyEngine
-
+ 
 def test_proximity_risk_escalation():
     """Test dynamic risk level escalation based on movement direction."""
 
