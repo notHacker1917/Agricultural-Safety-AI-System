@@ -6,7 +6,7 @@ Shows how Y-position (camera distance = truck distance) now drives risk scoring.
 import numpy as np
 import cv2
 import logging 
-from harvester_safety import HarvesterSafetyEngine
+from harvester_safety import HarvesterSafetyEngine 
 from harvester_visualizer import HarvesterSafetyVisualizer 
 
 logging.basicConfig(level=logging.INFO)
