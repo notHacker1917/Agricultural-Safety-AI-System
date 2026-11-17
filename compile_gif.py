@@ -3,7 +3,7 @@
 Agricultural Safety AI - GIF Compiler
 Command-line tool to compile demo frames into GIF animations
 """
-
+ 
 import os
 import glob
 import argparse
