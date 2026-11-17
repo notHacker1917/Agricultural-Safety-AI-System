@@ -6,7 +6,7 @@ import json
 import os
 from flask import Flask, render_template, Response, request, jsonify
 from detection import ObjectDetector as Detection
-from segmentation_tracking import DeepSORTTracker as SegmentationTracking
+from segmentation_tracking import DeepSORTTracker as SegmentationTracking 
 from safety_engine import SafetyEngine
 from visualization import Visualizer
 from trajectory_storage import TrajectoryStorage 
