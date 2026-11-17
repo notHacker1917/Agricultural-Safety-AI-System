@@ -1,6 +1,6 @@
 """
 COMPREHENSIVE DATASET ANALYSIS & HUMAN DETECTION OPTIMIZATION
-Analyzes dataset characteristics and generates optimized detection strategies
+Analyzes dataset characteristics and generates optimized detection strategies 
 """
 
 import json
