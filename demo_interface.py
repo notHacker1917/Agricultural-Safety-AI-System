@@ -7,7 +7,7 @@ import pandas as pd
 from pathlib import Path
 import tempfile
 from PIL import Image 
-
+ 
 st.set_page_config(page_title="Agricultural Safety AI Demo", page_icon="🚜", layout="wide")
 
 st.title("🚜 Agricultural Safety AI Demo Interface")
