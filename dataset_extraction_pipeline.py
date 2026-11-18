@@ -5,7 +5,7 @@ Extracts JSON annotations and images from HackHPI2026 dataset.
 Prepares data for validation against our agricultural safety system.
  
 Supports:
-- JSON annotation parsing (COCO format)
+- JSON annotation parsing (COCO format) 
 - Image batch loading
 - Ground truth evaluation
 - Performance metrics calculation
