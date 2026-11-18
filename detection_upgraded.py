@@ -2,7 +2,7 @@
 Upgraded Detection Module for Agricultural Safety AI System
 Implements:
 - Multi-scale inference with confidence-aware NMS
-- SAHI slicing for small/far human detection
+- SAHI slicing for small/far human detection 
 - Agricultural preprocessing (CLAHE, brightness normalization, shadow suppression)
 - Detection filtering with human aspect ratio validation
 - Confidence fusion (YOLO + motion + temporal) 
