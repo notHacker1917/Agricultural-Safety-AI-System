@@ -4,7 +4,7 @@ import logging
 import cv2
 from preprocessing import ImagePreprocessor
 
-class HumanVerifier:
+class HumanVerifier: 
     """
     Simple human verification based on bounding box properties. 
     """ 
