@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Enhanced 5-Tier Risk Assessment System for Agricultural Safety AI
-Provides precise, real-time risk evaluation with complete parameter verification
+Provides precise, real-time risk evaluation with complete parameter verification 
 """
 
 import numpy as np
