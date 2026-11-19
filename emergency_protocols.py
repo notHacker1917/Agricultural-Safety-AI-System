@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 
 class EmergencyLevel(Enum):
-    """Escalating emergency severity levels."""
+    """Escalating emergency severity levels.""" 
     LEVEL_0 = "LEVEL_0"         # Normal operation
     LEVEL_1 = "LEVEL_1"         # Warning (reduce speed)
     LEVEL_2 = "LEVEL_2"         # High alert (prepare stop)
