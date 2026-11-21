@@ -1,7 +1,7 @@
 """
 Generate a synthetic sample video with mock people for demo purposes.
 """
-import cv2
+import cv2 
 import numpy as np
 
 def generate_sample_video(output_path='sample_video.mp4', num_frames=30, width=640, height=480):
