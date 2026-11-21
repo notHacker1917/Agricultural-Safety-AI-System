@@ -2,7 +2,7 @@
 Generate Kaggle Writeup Media Assets
 Compliant with competition requirements:
 - Dataset images: ≤320x240 pixels
-- No third-party uploads
+- No third-party uploads 
 - Professional publication-ready graphics
 """
 
