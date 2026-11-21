@@ -2,7 +2,7 @@ import os
 import json
 import shutil
 import logging
-from collections import defaultdict
+from collections import defaultdict 
 import numpy as np
 from pycocotools.coco import COCO
 import cv2
