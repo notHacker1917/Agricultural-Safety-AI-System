@@ -2,7 +2,7 @@
 FIELD TRIAL VALIDATION PROTOCOL
 
 Comprehensive procedure for controlled real-world testing of the 
-agricultural safety system. Covers 14-day trial with safety procedures,
+agricultural safety system. Covers 14-day trial with safety procedures, 
 incident tracking, and data collection.
 """
 
