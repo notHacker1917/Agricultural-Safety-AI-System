@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 Agricultural Safety Challenge - KPI Report Generator
-Comprehensive performance metrics and safety assessment
+Comprehensive performance metrics and safety assessment 
 """
 
 import json
